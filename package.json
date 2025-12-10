@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "hola profe",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node src/index.js "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GerhardGDCO05/practica-topicos-especiales-de-programacion.git"
   },
-  "author": "",
+  "author": "Gerhard",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GerhardGDCO05/practica-topicos-especiales-de-programacion/issues"
@@ -18,6 +20,8 @@
   "homepage": "https://github.com/GerhardGDCO05/practica-topicos-especiales-de-programacion#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.2.1"
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
   }
 }
