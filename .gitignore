@@ -1,2 +1,4 @@
-node_modules/
+postman*
+Postman/
 .env
+node_modules/
